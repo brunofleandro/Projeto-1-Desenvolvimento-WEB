@@ -1,0 +1,56 @@
+#header {
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+
+	width: 100%;
+	height: 3.5%;
+	background-color: blue;
+	display: inline;
+	
+	
+}
+
+#header a{
+
+	font-size: 125%;
+	border: solid;
+	color: white;
+	text-decoration: none;
+	font-style: none;
+
+}
+
+#footer {
+	position: fixed;
+	right: 0; 
+	bottom: 0;
+
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+
+	width: 100%;
+	height: 3.5%;
+
+	background-color: green;
+}
+
+#main {
+
+	position: fixed;
+	top: 3.5%;
+	width: 100%;
+	bottom: 3.5%;
+
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+
+	margin: 15px auto;
+	
+	object-position: center;
+	text-align: center;
+	overflow: auto;
+}

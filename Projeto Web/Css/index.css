@@ -1,0 +1,11 @@
+#MapContainer {
+	width: 50%;
+  	margin: 0 auto;
+}
+
+#mapid {
+	margin: 0 auto;
+	width: 690px; 
+	height: 460px;
+	position: relative;
+}

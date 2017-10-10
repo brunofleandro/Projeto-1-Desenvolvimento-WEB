@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="Css/css.css">
+	<link rel="stylesheet" type="text/css" href="Css/index.css">
+
+	<script src="Script/script.js" ></script>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ 	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+
+</head>
+<body onload="start()">
+	<div id="header">
+		<a href="index.html">Inicio</a>
+		<a href="Fale_conosco.html">Contato</a>
+		<a href="Info.html">Informação</a>
+	</div>
+
+	<div id="main">
+
+		<div id="info">
+			<h2>
+				Lista de Colégios de Campinas
+			</h2>
+
+			<img src="Imgs/CampinasLogo.jpg">
+
+		</div>
+
+		<div id="MapContainer">
+			<select id="selectEscolas" onchange="select(value)">
+			</select>
+
+			<br>
+			<br>
+
+			<div id="mapid"></div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<p>Software livre; Desenvolvido por Bruno Fernandes Leandro; Disponivel no <a href="https://github.com/brunofleandro/Projeto-1-Desenvolvimento-WEB.git">Github</a>.</p>
+	</footer>
+</body>
+</html>
